@@ -1,0 +1,18 @@
+.sales-btn{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.812rem;
+  width: 2.812rem;
+  color: rgba(255, 107, 114, 0.1);
+  border: 1px solid #ff6b72;
+  border-radius: 0.625rem;
+  cursor: pointer
+}
+.btn img{
+  width: 1.188rem;
+}
