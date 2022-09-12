@@ -7,7 +7,7 @@
   box-sizing: border-box;
  }
 
- /* Grral */
+ /* Geral */
 html, body{
  background-color: #000;
  color: #fff;
@@ -17,6 +17,14 @@ a, a:hover, a:visited{
   color: #fff;
   text-decoration: none;
 }
+
+/* Card */
 .container {
+  width: 100%;
   max-width: 900px;
+  margin: 0 auto;
+}
+
+#sales{
+  padding: 40px 20px;
 }

@@ -1,0 +1,22 @@
+.introducao {
+  display: fles;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #102347 0%, #101818 100%);
+  padding: 30px;
+}
+.introducao-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introducao-content h1{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.introducao-content p{
+  font-size: 0.875rem;
+}
+.introducao-logo{
+  margin: 20px;
+}

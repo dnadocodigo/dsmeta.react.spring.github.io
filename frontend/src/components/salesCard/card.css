@@ -1,0 +1,96 @@
+
+.sales-card-content{
+  background:  #283142;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.sales-title{
+  font-size: 1.5rem;
+  color: #676fff;
+  margin-bottom: 20px;
+}
+.sales-form input{
+  height: 36px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 1.125rem;
+  color: #9aaabe;
+  background: #182531;
+  border: 1px solid #394459;
+  border-radius: 5px;
+}
+.sales-form-item{
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+.sales-table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.sales-table-header{
+  margin: 30px;
+  color: #e9e9e9;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 50px;
+  text-align: center;
+  height: 55px;
+}
+.sales-table-content{
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+.sales-table-item{
+  height: 74px;
+  border-top: 1px solid #5f6e82;
+}
+.sales-table-item:hover,
+.sales-table-item:nth-child(odd):hover{
+  background: #384459;
+}
+.sales-table-item:nth-child(odd){
+  background: #242c39;
+}
+
+.sales-btn{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.812rem;
+  width: 2.812rem;
+  color: rgba(255, 107, 114, 0.1);
+  border: 1px solid #ff6b72;
+  border-radius: 0.625rem;
+  cursor: pointer
+}
+.btn img{
+  width: 1.188rem;
+}
+@media screen and (min-width: 575px) and (max-width: 987px){
+  .sales-card-content{
+    padding: 50px;
+  }
+  .sales-form input{
+    font-size: 1rem;
+  }
+  .sales-table-item{
+    height: 55px;
+  }
+  .first{
+    display: none;
+  }
+}
+@media(max-width: 990px){ 
+  
+  .secund{
+    display: none;
+  }
+}
