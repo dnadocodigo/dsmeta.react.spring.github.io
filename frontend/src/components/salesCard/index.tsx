@@ -74,7 +74,7 @@ function SalesCard() {
                   <td>R$ {sale.amount.toFixed(2)}</td>
                   <td>
                     <div className="sales-btn">
-                      <NotificationButton />
+                      <NotificationButton salesId={sale.id} />
                     </div>
                   </td>
                 </tr>
