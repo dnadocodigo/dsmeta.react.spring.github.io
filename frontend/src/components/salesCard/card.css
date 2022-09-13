@@ -6,9 +6,15 @@
   padding: 20px 10px;
 }
 .sales-title{
+  margin: 0 0 0 5px;
   font-size: 1.5rem;
   color: #676fff;
   margin-bottom: 20px;
+}
+.lbl{
+  margin: 0 0 0 5px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .sales-form input{
   height: 36px;
@@ -19,6 +25,7 @@
   background: #182531;
   border: 1px solid #394459;
   border-radius: 5px;
+  margin: 5px 0 0 0;
 }
 .sales-form-item{
   margin-bottom: 20px;

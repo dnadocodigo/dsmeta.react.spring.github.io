@@ -31,6 +31,7 @@ function SalesCard() {
       <h2 className="sales-title">Vendas</h2>
       <div className="sales-form">
         <div className="sales-form-item">
+          <label className="lbl">Data inicial</label>
           <DatePicker
             selected={minDate}
             onChange={(date: Date) => setMinDate(date)}
@@ -39,6 +40,7 @@ function SalesCard() {
           />
         </div>
         <div className="sales-form-item">
+          <label className="lbl">Data final</label>
           <DatePicker
             selected={maxDate}
             onChange={(date: Date) => setMaxDate(date)}
