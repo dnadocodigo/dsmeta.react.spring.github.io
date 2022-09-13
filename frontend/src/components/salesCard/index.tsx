@@ -8,7 +8,7 @@ import NotificationButton from "../notificatioButton/Index";
 import "./card.css";
 
 function SalesCard() {
-  const daysBefore = new Date(new Date().setDate(new Date().getDate() - 7));
+  const daysBefore = new Date(new Date().setDate(new Date().getDate() - 365));
   const actualDay = new Date();
 
   const [minDate, setMinDate] = useState(daysBefore);
